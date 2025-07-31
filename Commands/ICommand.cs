@@ -1,16 +1,6 @@
 using UnityEngine;
 
-public class ICommand : MonoBehaviour
+public interface ICommand
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    void Execute(CharacterMover character);
 }
